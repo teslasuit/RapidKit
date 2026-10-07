@@ -289,7 +289,7 @@ class MultiplierStimulator:
     ``muscle_data.Period`` is in ms and ``_BASE_PERIOD_MKS`` is in μs,
     the effective period will be off by 1000×. Kept here as a fallback;
     switch by importing this class instead of ``Stimulator`` in
-    ``rapidkit/engine.py``.
+    ``teslasuit_rapidkit/engine.py``.
     """
 
     def __init__(self):

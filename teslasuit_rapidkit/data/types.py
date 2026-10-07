@@ -415,7 +415,7 @@ class CustomPlayable:
     ``haptic.set_playable_multipliers`` whenever they change.
 
     Looped vs. one-shot determines what
-    :class:`rapidkit.io.stimulator.LibraryStimulator` does on each
+    :class:`teslasuit_rapidkit.io.stimulator.LibraryStimulator` does on each
     mute→unmute edge:
 
     * ``is_looped=True`` — the factory pre-arms the playable
@@ -456,7 +456,7 @@ class HapticLibrary:
     ``process()`` toggle ``slot.IsMuted`` to fire / silence the playable.
 
     The engine drives playback automatically each cycle via
-    :class:`rapidkit.io.stimulator.LibraryStimulator` — no explicit
+    :class:`teslasuit_rapidkit.io.stimulator.LibraryStimulator` — no explicit
     ``play_playable`` calls from user code.
 
     Example::

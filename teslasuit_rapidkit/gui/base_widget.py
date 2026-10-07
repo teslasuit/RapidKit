@@ -8,7 +8,7 @@ seamlessly with ``FesApp``'s 30 Hz refresh loop, ``DataAdapter`` and
 
 Minimal example — a custom status tab::
 
-    from rapidkit.gui.base_widget import FesWidget
+    from teslasuit_rapidkit.gui.base_widget import FesWidget
     from PyQt5 import QtWidgets
 
     class StatusTab(FesWidget):

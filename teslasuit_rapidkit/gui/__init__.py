@@ -9,9 +9,9 @@ SharedRingBuffer — no direct backend process access.
 
 Typical usage::
 
-    from rapidkit.gui.app import FesApp
-    from rapidkit.gui.tabs.overview_tab import OverviewTab
-    from rapidkit.gui.tabs.biomechanics_tab import BiomechanicsTab
+    from teslasuit_rapidkit.gui.app import FesApp
+    from teslasuit_rapidkit.gui.tabs.overview_tab import OverviewTab
+    from teslasuit_rapidkit.gui.tabs.biomechanics_tab import BiomechanicsTab
 
     def gui_main(control_queue, utility_queue):
         app = FesApp(

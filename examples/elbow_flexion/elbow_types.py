@@ -3,7 +3,7 @@
 Elbow Flexion FES example — data types.
 
 Contains example-specific dataclasses and shared memory layout.  Not part of
-the rapidkit package.
+the teslasuit_rapidkit package.
 
 The ControlMessage here does NOT use ``_default_stim_params`` — this example
 is a joint-angle-tracking PID, not a per-muscle event scheduler, so

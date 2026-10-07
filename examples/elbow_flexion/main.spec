@@ -35,9 +35,9 @@ from PyInstaller.utils.hooks import (
 # ─── Paths ──────────────────────────────────────────────────────────────────
 # SPECPATH is injected by PyInstaller and points to this file's directory.
 SPEC_DIR = Path(SPECPATH).resolve()
-PROJECT_ROOT = SPEC_DIR.parents[1]  # …/rapidkit
+PROJECT_ROOT = SPEC_DIR.parents[1]  # repository root
 
-# Make absolute imports like ``from rapidkit…`` and
+# Make absolute imports like ``from teslasuit_rapidkit…`` and
 # ``from examples.elbow_flexion…`` resolvable during Analysis *and*
 # at runtime when the frozen bootloader builds ``sys.path``.
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -47,7 +47,7 @@ hiddenimports: list[str] = []
 
 # Every module under the in-repo framework and the example package.
 for pkg in (
-    "rapidkit",
+    "teslasuit_rapidkit",
     "teslasuit_sdk",
     "examples.elbow_flexion",
 ):
@@ -77,8 +77,8 @@ hiddenimports += [
 # ─── Data files (JSON configs, Qt/pyqtgraph resources, etc.) ────────────────
 datas: list[tuple[str, str]] = []
 
-# Ship ``rapidkit/config/*.json`` (muscle map lives here).
-datas += collect_data_files("rapidkit", includes=["config/*.json",
+# Ship ``teslasuit_rapidkit/config/*.json`` (muscle map lives here).
+datas += collect_data_files("teslasuit_rapidkit", includes=["config/*.json",
                                                         "config/*"])
 
 # Pull any package data pyqtgraph / pylsl carry alongside their code.

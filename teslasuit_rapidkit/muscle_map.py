@@ -46,14 +46,14 @@ class MuscleMap:
     into actual Teslasuit SDK channel IDs at construction time (i.e. when the
     suit is already connected and ``api.mapper`` is available).
 
-    Config files live in ``rapidkit/config/``. The framework supports
+    Config files live in ``teslasuit_rapidkit/config/``. The framework supports
     Teslasuit 4.x and XR5 via per-version JSON configs:
       - ``muscle_map_4R.json``  — Teslasuit 4.x family (ships with the package)
       - ``muscle_map_XR5.json`` — Teslasuit XR5 (provided alongside as needed)
 
     Usage::
 
-        muscle_map = MuscleMap("rapidkit/config/muscle_map_4R.json", api, layout, bones)
+        muscle_map = MuscleMap("teslasuit_rapidkit/config/muscle_map_4R.json", api, layout, bones)
         channels = muscle_map.get_channels("quadriceps_left")   # -> [14, 15, 16]
         info     = muscle_map["quadriceps_left"]                # -> MuscleInfo(...)
         left_leg = muscle_map.by_side("left")                   # -> [MuscleInfo, ...]

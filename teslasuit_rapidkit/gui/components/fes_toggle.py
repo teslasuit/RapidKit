@@ -6,7 +6,7 @@ automatically.  No boilerplate required in the parent widget.
 
 Usage::
 
-    from rapidkit.gui.components.fes_toggle import FesToggle
+    from teslasuit_rapidkit.gui.components.fes_toggle import FesToggle
 
     # Inside any QWidget / FesWidget.build_ui():
     toggle = FesToggle(queue_handler=self.qh)

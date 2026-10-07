@@ -18,7 +18,7 @@ segments) are not passed to the strategy — they live on the engine's
     engine.data_streamer.raw_data        # RawData   (all 20 SensorData)
     engine.data_streamer.processed_data  # ProcessedData (all 20 MocapBoneData)
 
-See ``rapidkit/data/types.py`` for the full list of fields in
+See ``teslasuit_rapidkit/data/types.py`` for the full list of fields in
 ``BiomechanicalData``, ``RawData``, and ``ProcessedData``.
 
 How to observe success:

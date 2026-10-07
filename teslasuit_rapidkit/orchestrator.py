@@ -189,7 +189,7 @@ def launch(
 
     Example (headless)::
 
-        from rapidkit.orchestrator import launch
+        from teslasuit_rapidkit.orchestrator import launch
         from my_strategy import MyStrategy
 
         launch(MyStrategy, lsl_enabled=True)

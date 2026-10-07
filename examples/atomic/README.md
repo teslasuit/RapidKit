@@ -1,7 +1,7 @@
 # Atomic Examples
 
 Single-file, copy-pasteable examples that each demonstrate one FES Framework
-concern. Every file here imports only from the public `rapidkit.*` API
+concern. Every file here imports only from the public `teslasuit_rapidkit.*` API
 and runs as a standalone script against a real Teslasuit.
 
 For a complete GUI + multi-process integrated application built on these same
@@ -44,7 +44,7 @@ initialisation.
 ## When `launch()` is not enough
 
 `minimal_closed_loop.py` and `reading_sensor_data.py` use
-`rapidkit.orchestrator.launch()` — the recommended dual-process entry
+`teslasuit_rapidkit.orchestrator.launch()` — the recommended dual-process entry
 point. The other three drop down to `ClosedLoopEngine` directly because they
 need one of:
 

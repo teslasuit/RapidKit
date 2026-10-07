@@ -8,7 +8,7 @@ The result is a compact timeline view of stimulation on/off state.
 
 Usage::
 
-    from rapidkit.gui.components.muscle_activity_plot import MuscleActivityPlot
+    from teslasuit_rapidkit.gui.components.muscle_activity_plot import MuscleActivityPlot
 
     plot = MuscleActivityPlot(muscles=["quadriceps_left", "quadriceps_right"])
     plot.update_data(time_array, {"quadriceps_left": active_array, ...})

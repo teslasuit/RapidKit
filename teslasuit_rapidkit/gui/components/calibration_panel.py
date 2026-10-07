@@ -6,7 +6,7 @@ automatically.  No boilerplate required in the parent widget.
 
 Usage::
 
-    from rapidkit.gui.components.calibration_panel import CalibrationPanel
+    from teslasuit_rapidkit.gui.components.calibration_panel import CalibrationPanel
 
     # Inside any QWidget / FesWidget.build_ui():
     panel = CalibrationPanel(queue_handler=self.qh)

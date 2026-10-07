@@ -17,8 +17,8 @@ require a live device are all welcome and reviewable without hardware.
 2. Clone this repository and install it in editable mode:
 
    ```bash
-   git clone <this-repository-url>
-   cd teslasuit-rapidkit
+   git clone https://github.com/teslasuit/RapidKit.git
+   cd RapidKit
    pip install -e ".[gui]"
    ```
 

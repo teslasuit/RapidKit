@@ -31,7 +31,7 @@ This README covers the essentials for getting a first application running.
 ## Requirements
 
 - **OS:** Windows 10 or 11, 64-bit
-- **Python:** 3.8 or higher
+- **Python:** 3.10 or higher
 - **Hardware:** Teslasuit (4.x or XR5)
 - **Software:** Teslasuit Control Center and Teslasuit Studio installed and running
 
@@ -47,8 +47,8 @@ to install it into your Python environment before continuing.
 **2. Install RapidKit.** Clone this repository, then install from the project root:
 
 ```bash
-git clone <this-repository-url> teslasuit-rapidkit
-cd teslasuit-rapidkit
+git clone https://github.com/teslasuit/RapidKit.git
+cd RapidKit
 pip install .
 ```
 
@@ -240,3 +240,6 @@ See [CHANGELOG.md](CHANGELOG.md).
 ## License
 
 [MIT](LICENSE)
+
+The Jura fonts bundled under `examples/haptic_navigation/gui/assets/fonts/` are
+licensed separately under the [SIL Open Font License 1.1](examples/haptic_navigation/gui/assets/fonts/OFL.txt).

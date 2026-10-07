@@ -7,7 +7,7 @@ example in this folder starts from the same shape:
 
     1. Subclass ``ControlStrategyBase``
     2. Implement ``process()`` — called once per control cycle
-    3. Hand the class off to ``rapidkit.orchestrator.launch()``
+    3. Hand the class off to ``teslasuit_rapidkit.orchestrator.launch()``
 
 The framework auto-creates ``SuitHandler``, ``DataStreamer``, ``Stimulator``,
 ``LSLStreamer`` and the IPC queues. You only write strategy code.

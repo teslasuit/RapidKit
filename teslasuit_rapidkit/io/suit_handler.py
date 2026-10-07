@@ -41,7 +41,7 @@ class SuitHandler:
         Args:
             muscle_map_config: Path to muscle map JSON config file.
                                Defaults to the Teslasuit 4.x layout
-                               (``rapidkit/config/muscle_map_4R.json``);
+                               (``teslasuit_rapidkit/config/muscle_map_4R.json``);
                                an XR5 config can be passed in to switch hardware.
         """
         if muscle_map_config is None:
@@ -167,7 +167,7 @@ class SuitHandler:
         ``LibraryStimulator`` only needs to toggle ``set_playable_muted``
         each time the strategy flips ``slot.IsMuted``. Mirrors the
         creation pattern used by
-        :class:`rapidkit.io.stimulator.Stimulator` for EMS muscles.
+        :class:`teslasuit_rapidkit.io.stimulator.Stimulator` for EMS muscles.
 
         ``duration`` only sets one iteration length (the playable is
         looped immediately after creation), so any positive integer works.

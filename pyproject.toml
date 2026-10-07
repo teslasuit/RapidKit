@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "teslasuit_rapidkit"
 version = "0.1.0"
 description = "Rapid closed-loop FES application framework for Teslasuit"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [
@@ -19,8 +19,6 @@ classifiers = [
     "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
@@ -34,6 +32,8 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://documentation.teslasuit.io/frameworks"
+Repository = "https://github.com/teslasuit/RapidKit"
+Issues = "https://github.com/teslasuit/RapidKit/issues"
 
 [project.optional-dependencies]
 gui = [

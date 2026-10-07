@@ -5,7 +5,7 @@ Semantic Muscle Addressing and Stimulation
 Two things are demonstrated:
 
     1. Query the muscle map semantically. ``ControlStrategyBase.muscles`` is a
-       ``MuscleMap`` instance (see ``rapidkit/muscle_map.py``). You can
+       ``MuscleMap`` instance (see ``teslasuit_rapidkit/muscle_map.py``). You can
        ask it for muscles by side or body region, list all configured muscles,
        or resolve a name to the underlying SDK channel IDs.
 

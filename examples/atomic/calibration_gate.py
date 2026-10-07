@@ -3,7 +3,7 @@
 Calibration Gate
 
 This example demonstrates the intended headless calibration flow from
-``rapidkit/calibration.py``::
+``teslasuit_rapidkit/calibration.py``::
 
     1. Create a ClosedLoopEngine (which auto-builds a CalibrationAPI).
     2. Put the subject in I-pose.

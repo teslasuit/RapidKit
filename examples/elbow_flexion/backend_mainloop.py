@@ -10,7 +10,7 @@ Thin ``ClosedLoopEngine`` subclass that adds:
 * A rolling 1-second sample-rate counter
 * Calibration-on-request handling (I-pose) via ``on_utility_message``
 
-The generic engine (``rapidkit.engine.ClosedLoopEngine``) owns the
+The generic engine (``teslasuit_rapidkit.engine.ClosedLoopEngine``) owns the
 per-cycle sensor→strategy→stimulator pipeline; this class only wires in
 the example-specific pieces.
 """

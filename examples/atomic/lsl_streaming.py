@@ -7,7 +7,7 @@ What this example shows
 1. **Outlets**:
    Constructing ``ClosedLoopEngine`` with ``lsl_enabled=True`` flips on
    ``LSLStreamer``, which publishes 7 outlets each cycle. The names below
-   match ``rapidkit/io/lsl_streamer.py``:
+   match ``teslasuit_rapidkit/io/lsl_streamer.py``:
 
        - ``TS_Biomechanics``      (29 joint angles)
        - ``TS_API_StepDetector``  (foot contacts)
