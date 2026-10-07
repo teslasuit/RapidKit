@@ -1,0 +1,252 @@
+{
+  "hardware_version": "4R",
+  "description": "Teslasuit 4.x muscle channel mapping for lower body and upper body FES (20 muscle groups). The framework also supports XR5 via an equivalent config file.",
+  "muscles": {
+    "quadriceps_left": {
+      "channels": [
+        {"bone_index": 0, "channel_slice": [3, 6]}
+      ],
+      "side": "left",
+      "body_region": "upper_leg",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "quadriceps_right": {
+      "channels": [
+        {"bone_index": 2, "channel_slice": [3, 6]}
+      ],
+      "side": "right",
+      "body_region": "upper_leg",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "hamstring_left": {
+      "channels": [
+        {"bone_index": 1, "channel_slice": [2, 6]}
+      ],
+      "side": "left",
+      "body_region": "upper_leg",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "hamstring_right": {
+      "channels": [
+        {"bone_index": 3, "channel_slice": [2, 6]}
+      ],
+      "side": "right",
+      "body_region": "upper_leg",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "gastrocnemius_left": {
+      "channels": [
+        {"bone_index": 5, "channel_slice": [0, null]}
+      ],
+      "side": "left",
+      "body_region": "lower_leg",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "gastrocnemius_right": {
+      "channels": [
+        {"bone_index": 7, "channel_slice": [0, null]}
+      ],
+      "side": "right",
+      "body_region": "lower_leg",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "tibialis_anterior_left": {
+      "channels": [
+        {"bone_index": 4, "channel_slice": [0, 1]}
+      ],
+      "side": "left",
+      "body_region": "lower_leg",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "tibialis_anterior_right": {
+      "channels": [
+        {"bone_index": 6, "channel_slice": [0, 1]}
+      ],
+      "side": "right",
+      "body_region": "lower_leg",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "gluteus_left": {
+      "channels": [
+        {"bone_index": 1, "channel_slice": [0, 2]}
+      ],
+      "side": "left",
+      "body_region": "hip",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "gluteus_right": {
+      "channels": [
+        {"bone_index": 3, "channel_slice": [0, 2]}
+      ],
+      "side": "right",
+      "body_region": "hip",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "deltoid_left": {
+      "channels": [
+        {"bone_index": 12, "channel_slice": [0]},
+        {"bone_index": 13, "channel_slice": [0]}
+      ],
+      "side": "left",
+      "body_region": "shoulder",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "deltoid_right": {
+      "channels": [
+        {"bone_index": 14, "channel_slice": [0]},
+        {"bone_index": 15, "channel_slice": [0]}
+      ],
+      "side": "right",
+      "body_region": "shoulder",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "biceps_left": {
+      "channels": [
+        {"bone_index": 12, "channel_slice": [1]}
+      ],
+      "side": "left",
+      "body_region": "upper_arm",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "biceps_right": {
+      "channels": [
+        {"bone_index": 14, "channel_slice": [1]}
+      ],
+      "side": "right",
+      "body_region": "upper_arm",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "triceps_left": {
+      "channels": [
+        {"bone_index": 13, "channel_slice": [1]}
+      ],
+      "side": "left",
+      "body_region": "upper_arm",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "triceps_right": {
+      "channels": [
+        {"bone_index": 15, "channel_slice": [1]}
+      ],
+      "side": "right",
+      "body_region": "upper_arm",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "wrist_flexors_left": {
+      "channels": [
+        {"bone_index": 16, "channel_slice": [1, 2, 3]},
+        {"bone_index": 17, "channel_slice": [0]}
+      ],
+      "side": "left",
+      "body_region": "lower_arm",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "wrist_flexors_right": {
+      "channels": [
+        {"bone_index": 18, "channel_slice": [1, 2, 3]},
+        {"bone_index": 19, "channel_slice": [0]}
+      ],
+      "side": "right",
+      "body_region": "lower_arm",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "wrist_extensors_left": {
+      "channels": [
+        {"bone_index": 17, "channel_slice": [1, 2]},
+        {"bone_index": 16, "channel_slice": [0]}
+      ],
+      "side": "left",
+      "body_region": "lower_arm",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    },
+    "wrist_extensors_right": {
+      "channels": [
+        {"bone_index": 19, "channel_slice": [1, 2]},
+        {"bone_index": 18, "channel_slice": [0]}
+      ],
+      "side": "right",
+      "body_region": "lower_arm",
+      "stimulation_defaults": {
+        "period_us": 20000,
+        "amplitude_pct": 0,
+        "pulse_width_us": 80
+      }
+    }
+  }
+}
